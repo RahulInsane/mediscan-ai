@@ -1,0 +1,16 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pkl
+*.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environment
+.env
+
+# Node (covered by frontend/.gitignore but adding here too)
+frontend/node_modules/
+frontend/dist/
