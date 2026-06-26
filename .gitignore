@@ -2,7 +2,6 @@
 venv/
 __pycache__/
 *.pyc
-*.pkl
 *.db
 
 # Jupyter checkpoints
@@ -11,6 +10,6 @@ __pycache__/
 # Environment
 .env
 
-# Node (covered by frontend/.gitignore but adding here too)
+# Node
 frontend/node_modules/
 frontend/dist/

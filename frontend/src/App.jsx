@@ -15,7 +15,7 @@ export default function App() {
 
   const fetchHistory = async () => {
     try {
-      const res = await axios.get("http://localhost:8000/history")
+      const res = await axios.get("https://mediscan-ai-muf8.onrender.com/history")
       setHistory(res.data)
     } catch (err) {
       console.error("Could not fetch history")
@@ -39,7 +39,7 @@ export default function App() {
       const payload = Object.fromEntries(
         Object.entries(formData).map(([k, v]) => [k, parseFloat(v)])
       )
-      const res = await axios.post("http://localhost:8000/predict", payload)
+      const res = await axios.post("https://mediscan-ai-muf8.onrender.com/predict", payload)
       setResult(res.data)
     } catch (err) {
       setError("Something went wrong. Make sure the backend is running.")
