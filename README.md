@@ -2,6 +2,11 @@
 
 A full-stack AI-powered web application that predicts diabetes risk based on patient health parameters using a trained Machine Learning model.
 
+## Live Demo
+- Frontend: https://mediscan-ai-plum-zeta.vercel.app
+- Backend API: https://mediscan-ai-muf8.onrender.com
+- API Docs: https://mediscan-ai-muf8.onrender.com/docs
+
 ## Features
 - Predicts diabetes risk with probability score using a trained Random Forest model
 - Clean, responsive UI built with React and Tailwind CSS
